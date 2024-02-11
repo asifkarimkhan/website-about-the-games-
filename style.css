@@ -1,0 +1,39 @@
+html {
+    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+      Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    word-wrap: break-word;
+    font-weight: 400;
+  }
+  body {
+    padding-right: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42rem;
+    padding: 2.625rem 1.3125rem;
+    padding-top: 0;
+  }
+  img,
+  video,
+  iframe {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+  }
+  code {
+    word-wrap: break-word;
+  }
+  
+  :root {
+    background-color:#ffd1df;
+  }
+  .imagegrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+  }
+  .imagegrid img {
+     width: 25vw;
+    height: 25vw;
+  }
+  
